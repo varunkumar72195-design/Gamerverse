@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 GameVerse Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+
+    <!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">
+        🎮 GameVerse
+    </div>
+
+    <!-- ☰ Mobile Toggle Button -->
+    <button class="toggle-btn" id="toggleBtn">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Top Rated</a></li>
+        <li><a href="#">Upcoming</a></li>
+        <li><a href="#">Favorites</a></li>
+
+    </ul>
+
+    <button id="themeBtn">🌙</button>
+
+</nav>
+
+    <!-- HERO -->
+
+   
+
+    <!-- HERO BANNER -->
+
+    <section class="hero">
+
+        <div class="hero-overlay">
+
+            <span class="featured-tag">
+                🔥 Featured Game
+            </span>
+
+            <h2>
+                Cyberpunk 2077
+            </h2>
+
+            <p>
+                Explore Night City and become
+                a legendary cyberpunk mercenary.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="explore-btn" onclick="goToTrending()">
+    🎮 Explore Now
+</button>
+
+                <button class="wishlist-btn">
+                    ❤️ Wishlist
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CATEGORY FILTERS -->
+
+    <section class="filters">
+
+        <button onclick="loadGames()">
+            🎮 All
+        </button>
+
+        <button onclick="loadGenre('action')">
+            🔥 Action
+        </button>
+
+        <button onclick="loadGenre('racing')">
+            🏎 Racing
+        </button>
+
+        <button onclick="loadGenre('sports')">
+            ⚽ Sports
+        </button>
+
+        <button onclick="loadGenre('rpg')">
+            ⚔ RPG
+        </button>
+
+        <button onclick="loadTopRated()">
+            ⭐ Top Rated
+        </button>
+
+        <button onclick="loadUpcoming()">
+            🚀 Upcoming
+        </button>
+
+    </section>
+
+    <!-- TRENDING GAMES -->
+
+    <section class="games-section">
+
+        <h2 class="section-title" id="explore-button">
+            🔥 Trending Games
+        </h2>
+
+        <div
+            id="games"
+            class="games-grid">
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            🎮 GameVerse Pro © 2026
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
