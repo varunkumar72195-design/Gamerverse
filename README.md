@@ -1,4 +1,4 @@
-(LiveLink)[https://gameverse.bytexl.live/]
+[LiveLink](https://gameverse.bytexl.live/)
 # 🎮 GameVerse Pro
 
 GameVerse Pro is a modern gaming discovery web app built using **HTML, CSS, and JavaScript** with the RAWG API.  
